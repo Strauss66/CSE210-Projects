@@ -1,7 +1,7 @@
 # cse210-student-template
-Johan Guerrero Avitia - El patron 
+Johan Guerrero Avitia - El patron.
 
-This is the start of a new era. 
+This is the start of a new era! 
 
 This repository contains the starter code for many different projects. They are arranged as follows:
 
