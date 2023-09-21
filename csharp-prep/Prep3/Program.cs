@@ -10,13 +10,13 @@ class Program
         int guessNumber = 0;
 
         // Console.WriteLine(number);
-        
+        int count = 0;
         while (guessNumber != number)
         {
             Console.Write("Guess the number: ");
             guessNumberString = Console.ReadLine();
             guessNumber = int.Parse(guessNumberString);
-
+            count += 1;
             if (guessNumber > number)
             {
                 Console.WriteLine("Your guess is too high!");
@@ -30,7 +30,7 @@ class Program
                 Console.WriteLine("You guess right");
             }
         }
-        
+        Console.WriteLine($"It took you {count} guesses to get the word!");
 
     }
 }
