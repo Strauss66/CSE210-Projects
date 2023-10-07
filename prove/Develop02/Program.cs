@@ -51,8 +51,7 @@ class Program
                         loadedEntry.DisplayEntry();
                     }
                     break;
-
-
+                    
                 case "4":
                     Console.WriteLine("Enter the filename to save: ");
                     string saveFileName = Console.ReadLine();
