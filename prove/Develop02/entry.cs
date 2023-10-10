@@ -6,7 +6,7 @@ public class Entry
 
     public void DisplayEntry()
     {
-        Console.WriteLine($"{_prompt} ~ {_content} ~ {_date}");
+        Console.WriteLine($"{_prompt}  {_content}  {_date}");
     }
     public string SaveText()
     {
